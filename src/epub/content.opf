@@ -19,53 +19,53 @@
 		<link href="onix.xml" rel="onix-record"/>
 		<dc:title id="title">Short Fiction</dc:title>
 		<meta property="file-as" refines="#title">Short Fiction</meta>
-		<dc:subject id="subject-1">SUBJECT1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT2</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">LOCLINK1</meta>
-		<meta property="meta-auth" refines="#subject-2">LOCLINK2</meta>
-		<meta property="se:subject">TAG</meta>
+		<dc:subject id="subject-1">Short stories</dc:subject>
+		<dc:subject id="subject-2">Russia -- Fiction</dc:subject>
+		<dc:subject id="subject-3">Russia -- Social life and customs -- Fiction</dc:subject>
+		<dc:subject id="subject-4">Short stories, Russian -- Translations into English</dc:subject>
+		<meta property="se:subject">Fiction</meta>
+		<meta property="se:subject">Shorts</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
 			LONGDESCRIPTION
 		]]></meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>LINK</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<dc:language>en-GB</dc:language>
+		<dc:source>https://archive.org/details/signalotherstori00gars</dc:source>
+		<meta property="se:production-notes">No Gutenberg transcription, so this was built from the archive.org OCR text and manually cleaned up.</meta>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Short_fiction</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikisource.org/wiki/Author:Vsevolod_Mikhailovich_Garshin</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/vsevolod-garshin_short-fiction_rowland-smith</meta>
 		<dc:creator id="author">Vsevolod Garshin</dc:creator>
-		<meta property="file-as" refines="#author">AUTHORSORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHORFULLNAME</meta>
+		<meta property="file-as" refines="#author">Garshin, Vsevolod</meta>
+		<meta property="se:name.person.full-name" refines="#author">Vsevolod Mikhailovich Garshin</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Vsevolod_Garshin</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80090609</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">Rowland Smith</dc:contributor>
-		<meta property="file-as" refines="#translator">TRANSLATORSORT</meta>
+		<meta property="file-as" refines="#translator">Smith, Rowland</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Rowland_Smith</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">TRANSLATORNACOAFLINK</meta>
 		<meta property="display-seq" refines="#translator">1</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">win</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Ilya Repin</dc:contributor>
 		<meta property="file-as" refines="#artist">Repin, Ilya</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Ilya_Repin</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79075231</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBERSORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">LINK</meta>
-		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCERSORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">LINK</meta>
+		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-1">http://www.robinwhittleton.com</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 	</metadata>
 	<manifest>
@@ -75,14 +75,56 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/a-night.xhtml" id="a-night.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/a-toad-and-a-rose.xhtml" id="a-toad-and-a-rose.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/a-very-short-romance.xhtml" id="a-very-short-romance.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/an-incident.xhtml" id="an-incident.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/attalea-princeps.xhtml" id="attalea-princeps.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/coward.xhtml" id="coward.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/four-days.xhtml" id="four-days.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/from-the-reminiscences-of-private-ivanoff.xhtml" id="from-the-reminiscences-of-private-ivanoff.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/introduction.xhtml" id="introduction.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/make-believe.xhtml" id="make-believe.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/nadejda-nicolaievna.xhtml" id="nadejda-nicolaievna.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/officer-and-soldier-servant.xhtml" id="officer-and-soldier-servant.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-action-at-aislar.xhtml" id="the-action-at-aislar.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-bears.xhtml" id="the-bears.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-frog-who-travelled.xhtml" id="the-frog-who-travelled.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-meeting.xhtml" id="the-meeting.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-scarlet-blossom.xhtml" id="the-scarlet-blossom.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-signal.xhtml" id="the-signal.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="introduction.xhtml"/>
+		<itemref idref="preface.xhtml"/>
+		<itemref idref="halftitle.xhtml"/>
+		<itemref idref="coward.xhtml"/>
+		<itemref idref="four-days.xhtml"/>
+		<itemref idref="an-incident.xhtml"/>
+		<itemref idref="a-very-short-romance.xhtml"/>
+		<itemref idref="the-meeting.xhtml"/>
+		<itemref idref="officer-and-soldier-servant.xhtml"/>
+		<itemref idref="a-night.xhtml"/>
+		<itemref idref="attalea-princeps.xhtml"/>
+		<itemref idref="from-the-reminiscences-of-private-ivanoff.xhtml"/>
+		<itemref idref="make-believe.xhtml"/>
+		<itemref idref="the-bears.xhtml"/>
+		<itemref idref="the-scarlet-blossom.xhtml"/>
+		<itemref idref="a-toad-and-a-rose.xhtml"/>
+		<itemref idref="nadejda-nicolaievna.xhtml"/>
+		<itemref idref="the-action-at-aislar.xhtml"/>
+		<itemref idref="the-frog-who-travelled.xhtml"/>
+		<itemref idref="the-signal.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
