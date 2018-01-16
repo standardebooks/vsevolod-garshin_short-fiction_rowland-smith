@@ -23,6 +23,10 @@
 		<dc:subject id="subject-2">Russia -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Russia -- Social life and customs -- Fiction</dc:subject>
 		<dc:subject id="subject-4">Short stories, Russian -- Translations into English</dc:subject>
+		<meta property="meta-auth" refines="#subject-1">https://archive.org/details/signalotherstori00gars</meta>
+		<meta property="meta-auth" refines="#subject-2">https://archive.org/details/signalotherstori00gars</meta>
+		<meta property="meta-auth" refines="#subject-3">https://archive.org/details/signalotherstori00gars</meta>
+		<meta property="meta-auth" refines="#subject-4">https://archive.org/details/signalotherstori00gars</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
 		<dc:description id="description">A collection of Garshin’s translated short stories and novellas ordered by date of publication.</dc:description>
