@@ -10,6 +10,11 @@ span[epub|type~="subtitle"]{
 	font-weight: normal;
 }
 
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
 .signature{
 	font-variant: small-caps;
 }
@@ -29,6 +34,10 @@ p[epub|type~="se:diary.dateline"]{
 }
 
 [epub|type~="z3998:diary-entry"] p[epub|type~="se:diary.dateline"] + p{
+	text-indent: 0;
+}
+
+p[epub|type~="z3998:salutation"] + p{
 	text-indent: 0;
 }
 
