@@ -3,8 +3,8 @@
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/vsevolod-garshin/short-fiction/rowland-smith</dc:identifier>
 		<dc:date>2018-01-16T23:32:06Z</dc:date>
-		<meta property="dcterms:modified">2018-11-14T01:11:17Z</meta>
-		<meta property="se:revision-number">10</meta>
+		<meta property="dcterms:modified">2019-01-20T17:55:26Z</meta>
+		<meta property="se:revision-number">11</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -50,7 +50,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://archive.org/details/signalotherstori00gars</dc:source>
 		<meta property="se:production-notes">No Gutenberg transcription, so this was built from the archive.org OCR text and manually cleaned up.</meta>
-		<meta property="se:word-count">114547</meta>
+		<meta property="se:word-count">114549</meta>
 		<meta property="se:reading-ease.flesch">74.29</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikisource.org/wiki/Author:Vsevolod_Mikhailovich_Garshin</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/vsevolod-garshin_short-fiction_rowland-smith</meta>
