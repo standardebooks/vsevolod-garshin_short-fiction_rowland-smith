@@ -26,26 +26,28 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Short Fiction</dc:title>
 		<meta property="file-as" refines="#title">Short Fiction</meta>
 		<dc:subject id="subject-1">Short stories</dc:subject>
 		<dc:subject id="subject-2">Russia -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Russia -- Social life and customs -- Fiction</dc:subject>
 		<dc:subject id="subject-4">Short stories, Russian -- Translations into English</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://archive.org/details/signalotherstori00gars</meta>
-		<meta property="meta-auth" refines="#subject-2">https://archive.org/details/signalotherstori00gars</meta>
-		<meta property="meta-auth" refines="#subject-3">https://archive.org/details/signalotherstori00gars</meta>
-		<meta property="meta-auth" refines="#subject-4">https://archive.org/details/signalotherstori00gars</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh85121813</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">sh2008116767</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh2008116778</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh2008111647</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
 		<dc:description id="description">A collection of Garshin’s translated short stories and novellas ordered by date of publication.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Vsevolod Garshin’s literary career followed a stint as a infantry soldier and later an officer, and he received both public and critical acclaim in the 1880s. Before his sadly early death at the age of thirty-three after a lifelong battle with mental illness he wrote and published nineteen short stories. He drew on his military career and life in St. Petersburg as initial source material, and his varied cast of characters includes soldiers, painters, architects, madmen, bears, frogs and even flowers and trees. All are written with a depth of feeling and sympathy that marks Garshin out from his contemporaries.&lt;/p&gt;
 			&lt;p&gt;Collected here are the seventeen translations into English by Rowland Smith of Garshin’s short stories and novellas, in chronological order of the original Russian publication.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://archive.org/details/signalotherstori00gars</dc:source>
 		<meta property="se:production-notes">No Gutenberg transcription, so this was built from the archive.org OCR text and manually cleaned up.</meta>
