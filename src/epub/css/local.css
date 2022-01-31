@@ -20,8 +20,8 @@ footer{
 }
 
 p[epub|type~="se:diary.dateline"]{
-	text-align: right;
 	font-style: italic;
+	text-align: right;
 }
 
 [epub|type~="z3998:diary-entry"] p[epub|type~="se:diary.dateline"] + p{
