@@ -51,7 +51,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://archive.org/details/signalotherstori00gars</dc:source>
 		<meta property="se:production-notes">No Gutenberg transcription, so this was built from the archive.org OCR text and manually cleaned up.</meta>
-		<meta property="se:word-count">114560</meta>
+		<meta property="se:word-count">114559</meta>
 		<meta property="se:reading-ease.flesch">74.19</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikisource.org/wiki/Author:Vsevolod_Mikhailovich_Garshin</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/vsevolod-garshin_short-fiction_rowland-smith</meta>
